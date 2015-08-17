@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4267ACBA1B81A7ED00E88037 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4267ACB91B81A7ED00E88037 /* AppDelegate.swift */; };
+		4267ACBC1B81A7ED00E88037 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4267ACBB1B81A7ED00E88037 /* ViewController.swift */; };
+		4267ACBF1B81A7ED00E88037 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4267ACBD1B81A7ED00E88037 /* Main.storyboard */; };
+		4267ACC11B81A7ED00E88037 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4267ACC01B81A7ED00E88037 /* Images.xcassets */; };
+		4267ACC41B81A7ED00E88037 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4267ACC21B81A7ED00E88037 /* LaunchScreen.xib */; };
+		4267ACD01B81A7ED00E88037 /* PrimeSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4267ACCF1B81A7ED00E88037 /* PrimeSwiftTests.swift */; };
+		4267ACDA1B81AC4B00E88037 /* DivisorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4267ACD91B81AC4B00E88037 /* DivisorViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4267ACCA1B81A7ED00E88037 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4267ACAC1B81A7ED00E88037 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4267ACB31B81A7ED00E88037;
+			remoteInfo = PrimeSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4267ACB41B81A7ED00E88037 /* PrimeSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrimeSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4267ACB81B81A7ED00E88037 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4267ACB91B81A7ED00E88037 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4267ACBB1B81A7ED00E88037 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4267ACBE1B81A7ED00E88037 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4267ACC01B81A7ED00E88037 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4267ACC31B81A7ED00E88037 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		4267ACC91B81A7ED00E88037 /* PrimeSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrimeSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4267ACCE1B81A7ED00E88037 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4267ACCF1B81A7ED00E88037 /* PrimeSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeSwiftTests.swift; sourceTree = "<group>"; };
+		4267ACD91B81AC4B00E88037 /* DivisorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DivisorViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4267ACB11B81A7ED00E88037 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4267ACC61B81A7ED00E88037 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4267ACAB1B81A7ED00E88037 = {
+			isa = PBXGroup;
+			children = (
+				4267ACB61B81A7ED00E88037 /* PrimeSwift */,
+				4267ACCC1B81A7ED00E88037 /* PrimeSwiftTests */,
+				4267ACB51B81A7ED00E88037 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4267ACB51B81A7ED00E88037 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4267ACB41B81A7ED00E88037 /* PrimeSwift.app */,
+				4267ACC91B81A7ED00E88037 /* PrimeSwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4267ACB61B81A7ED00E88037 /* PrimeSwift */ = {
+			isa = PBXGroup;
+			children = (
+				4267ACB91B81A7ED00E88037 /* AppDelegate.swift */,
+				4267ACBB1B81A7ED00E88037 /* ViewController.swift */,
+				4267ACD91B81AC4B00E88037 /* DivisorViewController.swift */,
+				4267ACBD1B81A7ED00E88037 /* Main.storyboard */,
+				4267ACC01B81A7ED00E88037 /* Images.xcassets */,
+				4267ACC21B81A7ED00E88037 /* LaunchScreen.xib */,
+				4267ACB71B81A7ED00E88037 /* Supporting Files */,
+			);
+			path = PrimeSwift;
+			sourceTree = "<group>";
+		};
+		4267ACB71B81A7ED00E88037 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4267ACB81B81A7ED00E88037 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4267ACCC1B81A7ED00E88037 /* PrimeSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				4267ACCF1B81A7ED00E88037 /* PrimeSwiftTests.swift */,
+				4267ACCD1B81A7ED00E88037 /* Supporting Files */,
+			);
+			path = PrimeSwiftTests;
+			sourceTree = "<group>";
+		};
+		4267ACCD1B81A7ED00E88037 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4267ACCE1B81A7ED00E88037 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4267ACB31B81A7ED00E88037 /* PrimeSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4267ACD31B81A7ED00E88037 /* Build configuration list for PBXNativeTarget "PrimeSwift" */;
+			buildPhases = (
+				4267ACB01B81A7ED00E88037 /* Sources */,
+				4267ACB11B81A7ED00E88037 /* Frameworks */,
+				4267ACB21B81A7ED00E88037 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PrimeSwift;
+			productName = PrimeSwift;
+			productReference = 4267ACB41B81A7ED00E88037 /* PrimeSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4267ACC81B81A7ED00E88037 /* PrimeSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4267ACD61B81A7ED00E88037 /* Build configuration list for PBXNativeTarget "PrimeSwiftTests" */;
+			buildPhases = (
+				4267ACC51B81A7ED00E88037 /* Sources */,
+				4267ACC61B81A7ED00E88037 /* Frameworks */,
+				4267ACC71B81A7ED00E88037 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4267ACCB1B81A7ED00E88037 /* PBXTargetDependency */,
+			);
+			name = PrimeSwiftTests;
+			productName = PrimeSwiftTests;
+			productReference = 4267ACC91B81A7ED00E88037 /* PrimeSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4267ACAC1B81A7ED00E88037 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = MAEDAHAJIME;
+				TargetAttributes = {
+					4267ACB31B81A7ED00E88037 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					4267ACC81B81A7ED00E88037 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 4267ACB31B81A7ED00E88037;
+					};
+				};
+			};
+			buildConfigurationList = 4267ACAF1B81A7ED00E88037 /* Build configuration list for PBXProject "PrimeSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4267ACAB1B81A7ED00E88037;
+			productRefGroup = 4267ACB51B81A7ED00E88037 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4267ACB31B81A7ED00E88037 /* PrimeSwift */,
+				4267ACC81B81A7ED00E88037 /* PrimeSwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4267ACB21B81A7ED00E88037 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4267ACBF1B81A7ED00E88037 /* Main.storyboard in Resources */,
+				4267ACC41B81A7ED00E88037 /* LaunchScreen.xib in Resources */,
+				4267ACC11B81A7ED00E88037 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4267ACC71B81A7ED00E88037 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4267ACB01B81A7ED00E88037 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4267ACDA1B81AC4B00E88037 /* DivisorViewController.swift in Sources */,
+				4267ACBC1B81A7ED00E88037 /* ViewController.swift in Sources */,
+				4267ACBA1B81A7ED00E88037 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4267ACC51B81A7ED00E88037 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4267ACD01B81A7ED00E88037 /* PrimeSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4267ACCB1B81A7ED00E88037 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4267ACB31B81A7ED00E88037 /* PrimeSwift */;
+			targetProxy = 4267ACCA1B81A7ED00E88037 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4267ACBD1B81A7ED00E88037 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4267ACBE1B81A7ED00E88037 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4267ACC21B81A7ED00E88037 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4267ACC31B81A7ED00E88037 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4267ACD11B81A7ED00E88037 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4267ACD21B81A7ED00E88037 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4267ACD41B81A7ED00E88037 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PrimeSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4267ACD51B81A7ED00E88037 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PrimeSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4267ACD71B81A7ED00E88037 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PrimeSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PrimeSwift.app/PrimeSwift";
+			};
+			name = Debug;
+		};
+		4267ACD81B81A7ED00E88037 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PrimeSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PrimeSwift.app/PrimeSwift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4267ACAF1B81A7ED00E88037 /* Build configuration list for PBXProject "PrimeSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4267ACD11B81A7ED00E88037 /* Debug */,
+				4267ACD21B81A7ED00E88037 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4267ACD31B81A7ED00E88037 /* Build configuration list for PBXNativeTarget "PrimeSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4267ACD41B81A7ED00E88037 /* Debug */,
+				4267ACD51B81A7ED00E88037 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4267ACD61B81A7ED00E88037 /* Build configuration list for PBXNativeTarget "PrimeSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4267ACD71B81A7ED00E88037 /* Debug */,
+				4267ACD81B81A7ED00E88037 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4267ACAC1B81A7ED00E88037 /* Project object */;
+}
